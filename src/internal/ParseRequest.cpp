@@ -44,7 +44,7 @@ void ParseRequest::setClassName(const char* className) {
 	} else if (className == "_Role") {
 		httpPath += "roles";
 	} else {
-		httpPath += "classes/";
+		httpPath += "1/classes/";
 		httpPath += className;
 	}
 }
